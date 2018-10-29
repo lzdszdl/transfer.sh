@@ -7,7 +7,7 @@ import (
 
 	"strings"
 
-	"github.com/dutchcoders/transfer.sh/server"
+	"github.com/lzdszdl/transfer.sh/server"
 	"github.com/fatih/color"
 	"github.com/minio/cli"
 	"log"
@@ -146,7 +146,7 @@ var globalFlags = []cli.Flag{
 	cli.StringFlag{
 		Name:  "basedir",
 		Usage: "path to storage",
-		Value: "",
+		Value: "/tmp",
 	},
 	cli.StringFlag{
 		Name:   "clamav-host",
