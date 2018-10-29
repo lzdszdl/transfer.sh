@@ -90,7 +90,7 @@ var globalFlags = []cli.Flag{
 	cli.StringFlag{
 		Name:  "provider",
 		Usage: "s3|gdrive|local",
-		Value: "",
+		Value: "local",
 	},
 	cli.StringFlag{
 		Name:   "s3-endpoint",
