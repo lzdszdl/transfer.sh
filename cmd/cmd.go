@@ -37,7 +37,7 @@ var globalFlags = []cli.Flag{
 	cli.StringFlag{
 		Name:  "listener",
 		Usage: "127.0.0.1:8080",
-		Value: "127.0.0.1:8080",
+		Value: "0.0.0.0:8080",
 	},
 	// redirect to https?
 	// hostnames
